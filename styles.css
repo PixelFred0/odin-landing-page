@@ -30,11 +30,6 @@ button{
     justify-content: center;
 }
 
-.lowerheader .left {
-
-}
-
-
 .logo {
     font-size: 24px;
     color: #F9FAF8;
@@ -102,19 +97,27 @@ button{
 
 .mid_two {
     background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 120px;
 }
 
 .mid_two .text, .mid_two .reference  {
     font-size: 36px;
     color: #1F2937;
-    font-style: light italic;
+    font-style: italic;
     font-family: 'Roboto', sans-serif;
+    width: 800px;
+    
 }
 
 .mid_two .reference {
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
+    text-align: right;
+    width: 740px;
 }
 
 .box {
