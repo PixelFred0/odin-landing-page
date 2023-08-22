@@ -1,11 +1,19 @@
 
 @import url(https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap);
 
+body {
+    margin: 0px;
+}
+
 button{
     background-color: #3882f6;
     color: #E5E7EB;
     font-family: 'Roboto', sans-serif;
+    font-size: 20px;
     border-radius: 6px;
+    border: #3882f6;
+    width: 140px;
+    height: 40px;
 }
 
 .top, .footer {
@@ -14,26 +22,49 @@ button{
     color: #E5E7EB;
 }
 
-.header {
+.top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mid_header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    
+}
+
+.header {
+    display: flex;
+    width: 1000px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
 }
 
 .header .links {
     display: flex;
 }
 
+.headerlink {
+    padding: 10px;
+}
+
 .lowerheader {
     display: flex;
     justify-content: center;
+    width: 1000px;
+    margin: 90px;
 }
+
 
 .logo {
     font-size: 24px;
     color: #F9FAF8;
     font-family: 'Roboto', sans-serif;
+    font-weight: 900;
 }
 
 .hero_secondary, .headerlink {
@@ -48,20 +79,35 @@ button{
     font-family: 'Roboto', sans-serif;
 }
 
+.lowerheader .left {
+    margin-right: 50px;
+    width: 450px;
+}
+
 .lowerheader .right{
+    display: flex;
     background-color: gray;
     color: #F9FAF8;
+    margin-left: 50px;
+    width: 450px;
+    font-family: 'Roboto', sans-serif;
+    justify-content: center;
+    align-items: center;
+}
+
+.lowerheader button {
+    margin-top: 8px;
 }
 
 .mid_one {
     font-family: 'Roboto', sans-serif;
     color: #1F2937;
     font-size: 36px;
-    font-weight: 700;
+    font-weight: 900;
     padding: 60px;
 }
 
-.mid_one .header {
+.mid_one .mid_header {
     display: flex;
     justify-content: center;
     padding-bottom: 25px;
@@ -120,23 +166,45 @@ button{
     width: 740px;
 }
 
+.bottom {
+    display: flex;
+    justify-content: center;
+}
+
 .box {
     background-color: #3882f6;
+    margin: 150px;
+    width: 1000px;
+    height: 150px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 6px;
 }
 
 .left .text {
     font-size: 24px;
     color: #F9FAF8;
     font-family: 'Roboto', sans-serif;
+    font-weight: 800;
 }
 
 .left .text p {
     font-size: 18px;
     color: #E5E7EB;
     font-family: 'Roboto', sans-serif;
+    margin: 1px;
+    font-weight: 400;
 }
+
+.bottom button {
+    border: 3px #F9FAF8 solid;
+    border-radius: 6px;
+}
+
 
 .footer {
     display: flex;
-   justify-content: center;
+    justify-content: center;
+    padding: 50px;
 }
