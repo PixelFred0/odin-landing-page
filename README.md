@@ -1,1 +1,2 @@
 # odin-landing-page
+This is the End-Project, for the odin css part. The task was to create a landing page from zero. The only auxiliary material were two pictures, picture one with a example landing page and picture two was a basis stylesheet. I wanted to recreate the example landing page as best as I could and I think it turned out great.
