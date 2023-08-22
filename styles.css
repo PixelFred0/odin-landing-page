@@ -1,0 +1,139 @@
+
+@import url(https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap);
+
+button{
+    background-color: #3882f6;
+    color: #E5E7EB;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 6px;
+}
+
+.top, .footer {
+    background-color: #1F2937;
+    font-family: 'Roboto', sans-serif;
+    color: #E5E7EB;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .links {
+    display: flex;
+}
+
+.lowerheader {
+    display: flex;
+    justify-content: center;
+}
+
+.lowerheader .left {
+
+}
+
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-family: 'Roboto', sans-serif;
+}
+
+.hero_secondary, .headerlink {
+    font-size: 18px;
+    color: #E5E7EB;
+    font-family: 'Roboto', sans-serif;
+}
+
+.hero_main {
+    font-size: 48px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+}
+
+.lowerheader .right{
+    background-color: gray;
+    color: #F9FAF8;
+}
+
+.mid_one {
+    font-family: 'Roboto', sans-serif;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 700;
+    padding: 60px;
+}
+
+.mid_one .header {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 25px;
+}
+
+.illustraion_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.illustraion {
+    width: 160px;
+    padding: 25px;
+    
+}
+
+.illustraion .image {
+    width: 152px;
+    height: 160px;
+    border-radius: 10px;
+    border: 4px #3882f6 solid;
+}
+
+
+.mid_one .text {
+    font-size: 18px;
+    color: #1F2937;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    text-align: center;
+}
+
+.mid_two {
+    background-color: #E5E7EB;
+}
+
+.mid_two .text, .mid_two .reference  {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: light italic;
+    font-family: 'Roboto', sans-serif;
+}
+
+.mid_two .reference {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.box {
+    background-color: #3882f6;
+}
+
+.left .text {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-family: 'Roboto', sans-serif;
+}
+
+.left .text p {
+    font-size: 18px;
+    color: #E5E7EB;
+    font-family: 'Roboto', sans-serif;
+}
+
+.footer {
+    display: flex;
+   justify-content: center;
+}
